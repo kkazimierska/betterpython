@@ -20,7 +20,21 @@ Strategy design pattern aims to solve exactly this kind of problem.
 In strategy pattern we create a class for each of those strategies.
 Each class has one method that is called in `process_tickets`.
 
-## Step 1
+## Task 1
 
 Define the abstract interface for `processing_strategy` with method `create_ordering`,
 that has an argument list of SupportTickets. Implement instances of processing strategies.
+
+## Task 2
+Rewrite replacing the classes with functions - more basic version of the **strategy pattern**.
+Can be a bit shorter, quicker and cleaner.
+
+We can add typying for function parameter using **Callable**.
+[Callable](https://docs.python.org/3/library/typing.html#annotating-callable-objects)
+
+## Real world analogy and structure of Strategy Pattern
+
+[Structure](https://refactoring.guru/design-patterns/strategy)
+
+## TO practise
+[Variations of the Strategy Pattern](https://www.youtube.com/watch?v=n2b_Cxh20Fw)
